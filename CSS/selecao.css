@@ -1,0 +1,19 @@
+body{
+    background: #61b15a;
+    margin: 0px;
+    padding: 0px;
+    background-size: 1390px 720px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tela{
+    display: flex;
+
+}
+.ue{
+    padding-left: 20px; 
+}
+.imagem{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: flex-end; 
+}
