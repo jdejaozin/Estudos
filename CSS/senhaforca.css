@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+.testeSenha{
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #7b6da8;
+    position: absolute;
+    border-radius: 5px;
+    max-width: 600px;
+    height: 350px;
+    align-items: center;
+}
+.testeSenha div{
+    font-size: 1.6em;
+    padding: 5px;
+    max-width: 600px;
+}
+h1{
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#senhaForca{
+    height: 30px;
+}
+#senhaInput{
+    margin-top: 20px;
+}
