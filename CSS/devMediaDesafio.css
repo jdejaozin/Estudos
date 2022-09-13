@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circle{
+    background-color: black;
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+    border: solid 50px white;
+    cursor: pointer;
+    border-right: solid 50px rgb(16, 164, 194);
+    animation: rotating 2s linear infinite;
+}
+#text{
+    position: absolute;
+    color: white;
+}
+@keyframes rotating{
+    to{
+        transform: rotate(1turn);
+        
+    }
+}
