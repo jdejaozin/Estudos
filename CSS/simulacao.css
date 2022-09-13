@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'NoScary';
+    src: url('NoScary-regular.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tela{
+    display: flex;
+    flex-direction: row;
+}
+.meio{
+    background: linear-gradient(rgb(87, 25, 25), rgb(185, 120, 120)) fixed;
+}
+.log{
+    border-right: 0.5px solid rgba(0, 0, 0, 0.4);
+    width: 200px;
+    height: 100vh;
+    text-align: center;
+    overflow-y: auto;
+    background: rgb(56, 16, 16);
+    color: white;
+}
+.log h2{
+    text-align: center;
+    color: white;
+}
+.navHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    margin-left: -200px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 30px;
+}
+.navItem{
+    list-style: none;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'NoScary';
+    color: white;
+}
+.navItem a{
+    text-decoration: none;
+    color: white;
+}
+.navItem a:visited{
+    text-decoration: none;
+    color: white;
+}
+.images{
+    margin-left: -200px;
+    text-align: center;
+}
+.images img{
+    margin-right: 20px;
+}
+.imgCenter{
+    margin-bottom: 50px;
+}
+.text{
+    margin-left: -200px;
+    text-align: center;
+}
+.text p{
+    color: white;
+}
+.butao{
+    margin-left: -200px;
+}
+.butao button{
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+}

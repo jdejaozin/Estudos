@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'NoScary';
+    src: url('NoScary-regular.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgb(87, 25, 25), rgb(185, 120, 120)) fixed;
+}
+.header{
+    font-family: 'NoScary';
+    text-transform: uppercase;
+    font-size: 40px;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+}
+.navHeader{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.navItem{
+    list-style: none;
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.navItem a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.navItem a:visited{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.explicacao{
+    font-size: 50px;
+    color: white;
+    padding: 90px;
+    justify-content: center;
+}
